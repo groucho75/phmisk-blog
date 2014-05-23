@@ -14,4 +14,6 @@ After adding this package to your Phmisk site you have:
 Installation
 ------------
 
-1. todo
+1. Of course, having an installed Phmisk site is a prerequisite to install this package: please follow the [Phmisk](https://github.com/groucho75/phmisk) installation instrucions.
+
+2. TODO
