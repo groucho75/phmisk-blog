@@ -24,7 +24,13 @@ Installation
 
 5. add the code from `composer-addon.json` of this repo into `composer.json` of your phmisk site
 
-6. 5. add the code from `index-addon.json` of this repo into `index.php` of your phmisk site
+6. add the code from `index-addon.json` of this repo into `index.php` of your phmisk site
+
+7. visit `yoursite.com/news` to view the public news archive
+
+8. visit `yoursite.com/feed` to view the public feed with latest news
+
+9. visit `yoursite.com/admin/news` to edit news (login as user `editor`, password `secret123`)
 
 
 
