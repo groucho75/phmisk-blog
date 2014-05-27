@@ -27,7 +27,7 @@
 			<div class="row">   
 				
                 <div class="col-sm-12">
-                    <table class="table table-condensed table-hover stats-table">
+                    <table class="table table-condensed table-hover table-striped stats-table">
                         <thead>
                             <tr>
                                 <th>Updated</th>
@@ -40,7 +40,7 @@
                             {loop="$posts"}
                                 <tr rel="{$counter}">
                                     <td>{$value.updated}</td>
-                                    <td>{$value.title}</td>
+                                    <td {if="$value.published == 0"}class="text-muted"{/if}>{$value.title}</td>
                                     <td>
 										<a class="btn btn-default btn-xs" href="{#BASE_URL#}admin/news/edit/{$value.id}" role="button">
 											<span class="glyphicon glyphicon-pencil"></span>
@@ -52,6 +52,10 @@
 										<a class="btn btn-default btn-xs" href="{#BASE_URL#}news/read/{$value.nicename}" role="button" target="preview-news-{$value.id}">
 											<span class="glyphicon glyphicon-eye-open"></span>
 											View</a>
+										{else}
+										<a class="btn btn-default btn-xs disabled" href="#" role="button">
+											<span class="glyphicon glyphicon-eye-close"></span>
+											Draft</a>
 										{/if}
                                     </td>
                                 </tr>
