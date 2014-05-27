@@ -26,11 +26,14 @@ Installation
 
 6. add the code from `index-addon.json` of this repo into `index.php` of your phmisk site
 
-7. visit `yoursite.com/news` to view the public news archive
+Usage
+-----
 
-8. visit `yoursite.com/feed` to view the public feed with latest news
+1. visit `yoursite.com/news` to view the public news archive
 
-9. visit `yoursite.com/admin/news` to edit news (login as user `editor`, password `secret123`)
+2. visit `yoursite.com/feed` to view the public feed with latest news
+
+3. visit `yoursite.com/admin/news` to edit news (login as user `editor`, password `secret123`)
 
 
 
