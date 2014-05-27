@@ -29,11 +29,11 @@ Installation
 Usage
 -----
 
-1. visit `yoursite.com/news` to view the public news archive
+* visit `yoursite.com/news` to view the public news archive
 
-2. visit `yoursite.com/feed` to view the public feed with latest news
+* visit `yoursite.com/feed` to view the public feed with latest news
 
-3. visit `yoursite.com/admin/news` to edit news (login as user `editor`, password `secret123`)
+* visit `yoursite.com/admin/news` to edit news (login as user `editor`, password `secret123`)
 
 
 
