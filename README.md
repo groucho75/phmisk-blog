@@ -24,7 +24,7 @@ Installation
 
 5. add the code from `composer-addon.json` of this repo into `composer.json` of your phmisk site (involves the <em>require</em> section)
 
-6. add the code from `index-addon.json` of this repo into `index.php` of your phmisk site (before `$ph4->router->run()`)
+6. add the code from `routes-addon.php` of this repo into `routes.php` of your phmisk site
 
 Usage
 -----
