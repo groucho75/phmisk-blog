@@ -1,6 +1,10 @@
 phmisk-blog
 ===========
 
+## THIS PACKAGE IS OLD AND RELATED TO VERSION WITH RAINTPL TEMPLATE ENGINE: https://github.com/groucho75/phmisk/releases/tag/v0.5-alpha
+## I'LL UPDATE IT SOON!
+
+
 A simple blog/ news section for a [Phmisk](https://github.com/groucho75/phmisk) site.
 
 After adding this package to your Phmisk site you have:
